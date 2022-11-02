@@ -52,7 +52,7 @@ text-align: center;
 /* ==== second section starts here==== */
 .secondsection{
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: space-around;
     border: 2px solid var(--main-color);
     border-radius: 2%;
@@ -61,7 +61,7 @@ text-align: center;
 .subsection{
     border: none;
     border-right: 3px solid var(--main-color);
-    padding-right: 60px;
+    padding-right: 50px;
 }
 .subsection h4{
     font-family: 'Inter', sans-serif;
